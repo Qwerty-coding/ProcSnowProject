@@ -8,6 +8,8 @@ using namespace std;
 #include "Size_SL.h"
 #include "Reverse.h"
 #include "Search.h"
+#include "SortSl.h"
+#include "Middle.h"
 
 
 int main() {
@@ -31,4 +33,9 @@ int main() {
     reverseList(head);
     printLL(head);
    
+    sortList(head);
+    printLL(head);
+    
+    int middleValue = getMiddle(head);
+    cout << middleValue << endl;
 }
